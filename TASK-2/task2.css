@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -29,7 +29,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Ensure center alignment on all screen sizes */
+    text-align: center; 
 }
 
 nav ul li {
@@ -48,7 +48,7 @@ nav ul li a:hover {
 }
 
 main {
-    flex: 1; /* This makes sure the main content area grows to fill the space */
+    flex: 1; 
     padding: 20px;
 }
 
@@ -64,8 +64,6 @@ footer {
 }
 
 /* Media Queries */
-
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     nav ul li {
         margin-right: 30px;
@@ -76,7 +74,7 @@ footer {
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) and (max-width: 991px) {
     header h1 {
         font-size: 1.8em;
@@ -93,7 +91,7 @@ footer {
     }
 }
 
-/* Small devices (phones, less than 768px) */
+
 @media (max-width: 767px) {
     header {
         padding: 10px;
